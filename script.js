@@ -37,8 +37,8 @@ function cekbuku() {
     if (!bukuditemukan) {
         alert("Buku tidak ditemukan");
         return;
-        
     }
+    alert("silahkan ambil buku anda");
 
 
     
