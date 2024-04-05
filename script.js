@@ -20,7 +20,22 @@ function cekbuku() {
         {"nama": "sherlock", "jumlah": 2},
         {"nama": "lupin", "jumlah": 2},
         {"nama": "aladin", "jumlah": 2},
-    ]
+    ];
+
+    let bukuditemukan = false ;
+
+    for (let i = 0; i < buku.length; i++){
+       if (buku[i].nama == pilihan) {
+        if (buku[i].jumlah < jumlah) {
+            alert("Jumlah buku tidak cukup");
+            return;
+        }
+        let bukuditemukan = true;        
+        break;
+       }
+0      
+    }
+
 
     
 }
