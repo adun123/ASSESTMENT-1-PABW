@@ -33,7 +33,11 @@ function cekbuku() {
         let bukuditemukan = true;        
         break;
        }
-0      
+    }
+    if (!bukuditemukan) {
+        alert("Buku tidak ditemukan");
+        return;
+        
     }
 
 
