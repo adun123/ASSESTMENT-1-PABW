@@ -30,7 +30,7 @@ function cekbuku() {
             alert("Jumlah buku tidak cukup");
             return;
         }
-        let bukuditemukan = true;        
+        bukuditemukan = true;        
         break;
        }
     }
@@ -39,7 +39,4 @@ function cekbuku() {
         return;
     }
     alert("silahkan ambil buku anda");
-
-
-    
 }
